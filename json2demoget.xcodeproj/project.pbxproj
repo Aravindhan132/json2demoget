@@ -12,6 +12,8 @@
 		9076B0C31FEECD8D00123D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9076B0C11FEECD8D00123D05 /* Main.storyboard */; };
 		9076B0C51FEECD8D00123D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9076B0C41FEECD8D00123D05 /* Assets.xcassets */; };
 		9076B0C81FEECD8D00123D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9076B0C61FEECD8D00123D05 /* LaunchScreen.storyboard */; };
+		9076B0D01FEECFC200123D05 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9076B0CF1FEECFC200123D05 /* TableViewCell.swift */; };
+		9076B0D21FEED1C600123D05 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9076B0D11FEED1C600123D05 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9076B0C41FEECD8D00123D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9076B0C71FEECD8D00123D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9076B0C91FEECD8D00123D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9076B0CF1FEECFC200123D05 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		9076B0D11FEED1C600123D05 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				9076B0BD1FEECD8D00123D05 /* AppDelegate.swift */,
 				9076B0BF1FEECD8D00123D05 /* ViewController.swift */,
 				9076B0C11FEECD8D00123D05 /* Main.storyboard */,
+				9076B0D11FEED1C600123D05 /* DetailViewController.swift */,
+				9076B0CF1FEECFC200123D05 /* TableViewCell.swift */,
 				9076B0C41FEECD8D00123D05 /* Assets.xcassets */,
 				9076B0C61FEECD8D00123D05 /* LaunchScreen.storyboard */,
 				9076B0C91FEECD8D00123D05 /* Info.plist */,
@@ -91,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Yogesh Patel";
 				TargetAttributes = {
 					9076B0B91FEECD8D00123D05 = {
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9076B0D01FEECFC200123D05 /* TableViewCell.swift in Sources */,
 				9076B0C01FEECD8D00123D05 /* ViewController.swift in Sources */,
 				9076B0BE1FEECD8D00123D05 /* AppDelegate.swift in Sources */,
+				9076B0D21FEED1C600123D05 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
